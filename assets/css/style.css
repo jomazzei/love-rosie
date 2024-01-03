@@ -179,7 +179,7 @@ footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
-    margin: 0px;
+    margin: 0;
 }
 
 .cv-pdf i {
@@ -365,7 +365,7 @@ button[type="submit"] {
 }
 
 /* Media Queries */
-@media(min-width:992px) {
+@media (min-width:992px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
@@ -373,3 +373,4 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
